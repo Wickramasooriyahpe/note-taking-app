@@ -1,0 +1,80 @@
+body{
+    background-color: azure;
+}
+header {
+    background-color: rgb(136, 138, 138);
+    color: rgb(22, 24, 24);
+    padding: 28px;
+    text-align: center;
+}
+.main-content  ul {
+ text-align: left;
+ list-style: none;
+   
+}
+
+.main-content  ul li {
+    padding : 20px;
+    background-color: rgb(203, 211, 211);;
+    border-radius: 10px;
+    margin: 10px 0;
+   
+   }
+
+footer {
+    background-color: rgb(136, 138, 138);
+    color: rgb(22, 24, 24);
+    padding: 28px;
+    text-align: center;
+    position: fixed;
+    bottom: 0 ;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+footer form input 
+{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color:rgb(203, 211, 211);
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 0 auto;
+
+}
+footer form textarea
+{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color:rgb(203, 211, 211);
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 0 auto;
+
+}
+
+footer form textarea {
+    height: 50px;
+
+}
+
+footer form button {
+    padding: 10px;
+    color: rgb(22, 24, 24);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(203, 211, 211);
+    border: none;
+    margin: 20px;
+    text-align: center;
+
+}
